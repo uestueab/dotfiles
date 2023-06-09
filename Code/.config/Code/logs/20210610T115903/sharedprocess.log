@@ -1,0 +1,19 @@
+[2021-06-10 11:59:09.544] [sharedprocess] [error] [uncaught exception in sharedProcess]: The "path" argument must be of type string. Received type undefined: Error: The "path" argument must be of type string. Received type undefined
+    at b (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:14135)
+    at basename (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:22371)
+    at n.groupImportantTipsByExe (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:5088)
+    at n.collectTips (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:4567)
+    at async file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:3764
+[2021-06-10 11:59:46.306] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-06-10 12:02:00.623] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh
+[2021-06-10 12:02:01.390] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh /home/geeray/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-0.65.4
+[2021-06-10 12:02:02.208] [sharedprocess] [info] Extracted extension to /home/geeray/.vscode/extensions/.26444565-eaff-4577-bbbe-39b37fc0b227: ms-vscode-remote.remote-ssh
+[2021-06-10 12:02:02.286] [sharedprocess] [info] Renamed to /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-0.65.4
+[2021-06-10 12:02:02.292] [sharedprocess] [info] Installation completed. ms-vscode-remote.remote-ssh
+[2021-06-10 12:02:02.865] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh-edit
+[2021-06-10 12:02:03.136] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh-edit /home/geeray/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-edit-0.65.6
+[2021-06-10 12:02:03.208] [sharedprocess] [info] Extracted extension to /home/geeray/.vscode/extensions/.060fe65a-fa9f-45c0-9087-c44e3fb2ab9a: ms-vscode-remote.remote-ssh-edit
+[2021-06-10 12:02:03.259] [sharedprocess] [info] Renamed to /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.65.6
+[2021-06-10 12:02:03.264] [sharedprocess] [info] Installation completed. ms-vscode-remote.remote-ssh-edit
+[2021-06-10 12:02:03.319] [sharedprocess] [info] Extensions installed successfully: ms-vscode-remote.remote-ssh-edit
+[2021-06-10 12:02:03.319] [sharedprocess] [info] Extensions installed successfully: ms-vscode-remote.remote-ssh

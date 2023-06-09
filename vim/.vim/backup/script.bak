@@ -1,0 +1,7 @@
+#!/bin/bash
+
+curl -s http://www.reddit.com/r/gonewild.json | \
+jshon -e data -e children -a -e data -e url -u | \
+grep '.\(jpe\|jp\|pn\)g$' | \
+xargs -n 1 curl -O
+

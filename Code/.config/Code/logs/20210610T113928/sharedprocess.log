@@ -1,0 +1,46 @@
+[2021-06-10 11:39:34.573] [sharedprocess] [error] [uncaught exception in sharedProcess]: The "path" argument must be of type string. Received type undefined: Error: The "path" argument must be of type string. Received type undefined
+    at b (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:14135)
+    at basename (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:22371)
+    at n.groupImportantTipsByExe (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:5088)
+    at n.collectTips (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:4567)
+    at async file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:3764
+[2021-06-10 11:40:11.375] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-06-10 11:42:23.439] [sharedprocess] [info] Installing extension: jolaleye.horizon-theme-vscode
+[2021-06-10 11:42:24.157] [sharedprocess] [info] Downloaded extension: jolaleye.horizon-theme-vscode /home/geeray/.config/Code/CachedExtensionVSIXs/jolaleye.horizon-theme-vscode-2.0.2
+[2021-06-10 11:42:24.301] [sharedprocess] [info] Extracted extension to /home/geeray/.vscode/extensions/.999c2081-b5a2-44f6-ba7d-924c90340ab0: jolaleye.horizon-theme-vscode
+[2021-06-10 11:42:24.348] [sharedprocess] [info] Renamed to /home/geeray/.vscode/extensions/jolaleye.horizon-theme-vscode-2.0.2
+[2021-06-10 11:42:24.351] [sharedprocess] [info] Installation completed. jolaleye.horizon-theme-vscode
+[2021-06-10 11:42:24.403] [sharedprocess] [info] Extensions installed successfully: jolaleye.horizon-theme-vscode
+[2021-06-10 11:42:49.223] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2021-06-10 11:42:50.304] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/geeray/.config/Code/CachedExtensionVSIXs/vscodevim.vim-1.21.0
+[2021-06-10 11:42:50.727] [sharedprocess] [info] Extracted extension to /home/geeray/.vscode/extensions/.248e103f-59e0-442a-b966-86e751eb8ed3: vscodevim.vim
+[2021-06-10 11:42:50.788] [sharedprocess] [info] Renamed to /home/geeray/.vscode/extensions/vscodevim.vim-1.21.0
+[2021-06-10 11:42:50.792] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2021-06-10 11:42:50.843] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
+[2021-06-10 11:43:16.882] [sharedprocess] [info] Uninstalling extension: gerane.theme-azure
+[2021-06-10 11:43:16.949] [sharedprocess] [info] Successfully uninstalled extension: gerane.theme-azure
+[2021-06-10 11:43:24.670] [sharedprocess] [info] Uninstalling extension: formulahendry.auto-rename-tag
+[2021-06-10 11:43:24.743] [sharedprocess] [info] Successfully uninstalled extension: formulahendry.auto-rename-tag
+[2021-06-10 11:43:24.900] [sharedprocess] [info] Detected extension removed from another source formulahendry.auto-rename-tag
+[2021-06-10 11:47:49.269] [sharedprocess] [info] Uninstalling extension: jolaleye.horizon-theme-vscode
+[2021-06-10 11:47:49.273] [sharedprocess] [info] Uninstalling extension: vscodevim.vim
+[2021-06-10 11:47:49.365] [sharedprocess] [info] Successfully uninstalled extension: jolaleye.horizon-theme-vscode
+[2021-06-10 11:47:49.407] [sharedprocess] [info] Successfully uninstalled extension: vscodevim.vim
+[2021-06-10 11:47:49.572] [sharedprocess] [info] Detected extension removed from another source jolaleye.horizon-theme-vscode
+[2021-06-10 11:47:49.573] [sharedprocess] [info] Detected extension removed from another source vscodevim.vim
+[2021-06-10 11:47:50.112] [sharedprocess] [info] Installing extension: formulahendry.auto-rename-tag
+[2021-06-10 11:47:50.139] [sharedprocess] [info] Downloaded extension: formulahendry.auto-rename-tag /home/geeray/.config/Code/CachedExtensionVSIXs/formulahendry.auto-rename-tag-0.1.6
+[2021-06-10 11:47:50.234] [sharedprocess] [info] Removed the extension from uninstalled list: formulahendry.auto-rename-tag
+[2021-06-10 11:47:50.287] [sharedprocess] [info] Extensions installed successfully: formulahendry.auto-rename-tag
+[2021-06-10 11:47:50.334] [sharedprocess] [info] Installing extension: gerane.theme-azure
+[2021-06-10 11:47:50.400] [sharedprocess] [info] Downloaded extension: gerane.theme-azure /home/geeray/.config/Code/CachedExtensionVSIXs/gerane.theme-azure-0.0.5
+[2021-06-10 11:47:50.479] [sharedprocess] [info] Removed the extension from uninstalled list: gerane.theme-azure
+[2021-06-10 11:47:50.526] [sharedprocess] [info] Extensions installed successfully: gerane.theme-azure
+[2021-06-10 11:48:44.533] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2021-06-10 11:48:44.534] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/geeray/.config/Code/CachedExtensionVSIXs/vscodevim.vim-1.21.0
+[2021-06-10 11:48:44.719] [sharedprocess] [info] Removed the extension from uninstalled list: vscodevim.vim
+[2021-06-10 11:48:44.789] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
+[2021-06-10 11:48:51.287] [sharedprocess] [info] Installing extension: jolaleye.horizon-theme-vscode
+[2021-06-10 11:48:51.301] [sharedprocess] [info] Downloaded extension: jolaleye.horizon-theme-vscode /home/geeray/.config/Code/CachedExtensionVSIXs/jolaleye.horizon-theme-vscode-2.0.2
+[2021-06-10 11:48:51.384] [sharedprocess] [info] Removed the extension from uninstalled list: jolaleye.horizon-theme-vscode
+[2021-06-10 11:48:51.426] [sharedprocess] [info] Extensions installed successfully: jolaleye.horizon-theme-vscode

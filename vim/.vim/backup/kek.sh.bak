@@ -1,0 +1,6 @@
+#!/bin/bash
+
+eins=$1
+zwei=$2
+
+echo "$ein und $zwei"

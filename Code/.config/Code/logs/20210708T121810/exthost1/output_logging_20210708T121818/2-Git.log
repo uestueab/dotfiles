@@ -1,0 +1,23 @@
+Looking for git in: git
+Using git 2.32.0 from git
+> git rev-parse --git-dir
+Open repository: /home/geeray/.eclipse-workspace
+> git fetch
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/abgabe refs/remotes/abgabe
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+From https://github.com/uestueab/gui
+ * [new branch]      main       -> origin/main
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/abgabe refs/remotes/abgabe
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Training11Toolbar/src/FileIO.java
+> git ls-files --stage -- /home/geeray/.eclipse-workspace/Training11Toolbar/src/FileIO.java

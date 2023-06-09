@@ -1,0 +1,9 @@
+[2021-06-10 12:10:06.832] [renderer1] [error] [remote-connection] An error occurred in the very first connect attempt, it will be treated as a permanent error! Error:
+[2021-06-10 12:10:06.833] [renderer1] [error] Error: The connection timed out
+    at cr.resolveAuthority (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1816:8044)
+    at async Ga._scanAndHandleExtensions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2716:7109)
+    at async Ga._initialize (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2710:99228)
+[2021-06-10 12:10:07.050] [renderer1] [error] The connection timed out: Error: The connection timed out
+    at cr.resolveAuthority (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1816:8044)
+    at async Ga._scanAndHandleExtensions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2716:7109)
+    at async Ga._initialize (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2710:99228)

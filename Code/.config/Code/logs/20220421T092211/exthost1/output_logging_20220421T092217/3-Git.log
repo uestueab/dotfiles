@@ -1,0 +1,13 @@
+[2022-04-21T07:22:19.766Z] Validating found git in: git
+[2022-04-21T07:22:19.968Z] Using git 2.35.3 from git
+[2022-04-21T07:22:20.116Z] > git rev-parse --git-dir [1ms]
+[2022-04-21T07:22:20.134Z] Open repository: /home/geeray/.eclipse-workspace
+[2022-04-21T07:22:20.891Z] > git symbolic-ref --short HEAD [13ms]
+[2022-04-21T07:22:20.919Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/abgabe refs/remotes/abgabe [21ms]
+[2022-04-21T07:22:20.935Z] > git remote --verbose [2ms]
+[2022-04-21T07:22:20.968Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [42ms]
+[2022-04-21T07:22:21.018Z] > git config --get commit.template [1ms]
+[2022-04-21T07:22:21.679Z] > git fetch [1532ms]
+[2022-04-21T07:22:21.679Z] remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/uestueab/gui.git/'
+[2022-04-21T07:23:10.905Z] > git ls-files --stage -- /home/geeray/.eclipse-workspace/Training11Toolbar/src/FileIO.java [3ms]

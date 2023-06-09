@@ -1,0 +1,88 @@
+#!/bin/bash
+exec 2> /dev/null
+
+board="$1" #choose board 
+only="$2"
+thread=() #store thread links in array
+
+dir=$(zenity --file-selection --directory)
+cd $dir
+
+if [ "$1" == "s" ]; then
+for i in $(lynx -listonly -nonumbers -dump http://a.4cdn.org/$board/threads.json | grep -o '[0-9]*' | grep -P '(?<!\d)\d{8}(?!\d)'); do
+   thread+=("http://boards.4chan.org/$board/thread/$i")
+  done  #get all the thread urls
+thread_url=${thread[@]} ##here are all the thread links
+elif [ "$1" == "hc" ]; then
+	for i in $(lynx -listonly -nonumbers -dump http://a.4cdn.org/hc/threads.json | grep -o '[0-9]*' | grep  "^[0-9]\{6,7\}$"); do
+   thread+=("http://boards.4chan.org/$board/thread/$i")
+ done
+thread_url=${thread[@]} ##here are all the thread links
+else
+for i in $(lynx -listonly -nonumbers -dump http://a.4cdn.org/$board/threads.json | grep -o '[0-9]*' | grep -P '(?<!\d)\d{7}(?!\d)'); do
+   thread+=("http://boards.4chan.org/$board/thread/$i")
+ done
+thread_url=${thread[@]} ##here are all the thread links
+fi
+
+
+
+down()
+{
+for url in $thread_url; do ##for every thread..
+
+
+mkdir ${url##*/}
+cd ${url##*/}
+#echo ${#thread[@]}
+total=$(curl -k -s $url | grep -o 'File: <' | wc -l) #..count the number of files
+counter=1
+
+
+
+for image_url in $(curl -k -s $url | grep -o '\/\/i\.4cdn\.org\/.\{1,4\}\/[0-9]\{6,15\}\.[a-z]\{3,4\}' | uniq | sed 's/^/https:/'); do
+echo -n Downloading image $counter of $total...
+wget --no-check-certificate -q -nc $image_url
+echo ' Done'
+counter=$(($counter + 1))
+done
+cd ..
+done
+
+}
+
+choice()
+{
+for url in $thread_url; do ##for every thread..
+
+
+mkdir ${url##*/}
+cd ${url##*/}
+#echo ${#thread[@]}
+total=$(curl -k -s $url | grep -o '\/\/i\.4cdn\.org\/.\{1,4\}\/[0-9]\{6,15\}\.[a-z]\{3,4\}' | uniq | sed 's/^/https:/' | grep -E .$only | wc -l) #..count the number of files
+counter=1
+
+
+
+for image_url in $(curl -k -s $url | grep -o '\/\/i\.4cdn\.org\/.\{1,4\}\/[0-9]\{6,15\}\.[a-z]\{3,4\}' | uniq | sed 's/^/https:/' | grep -E .$only); do
+echo -n Downloading image $counter of $total...
+wget --no-check-certificate -q -nc $image_url
+echo ' Done'
+counter=$(($counter + 1))
+done
+cd ..
+done
+
+}
+
+
+
+
+
+
+if [[ -n "$only" ]]; then
+     choice
+      else
+          down
+            fi
+

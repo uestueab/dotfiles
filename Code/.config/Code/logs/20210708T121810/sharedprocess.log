@@ -1,0 +1,10 @@
+[2021-07-08 12:18:16.572] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-ssh-edit /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.65.6
+[2021-07-08 12:18:16.604] [sharedprocess] [info] Deleted from disk vscodevim.vim /home/geeray/.vscode/extensions/vscodevim.vim-1.21.0
+[2021-07-08 12:18:16.726] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-ssh /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-0.65.4
+[2021-07-08 12:18:17.924] [sharedprocess] [error] [uncaught exception in sharedProcess]: The "path" argument must be of type string. Received type undefined: Error: The "path" argument must be of type string. Received type undefined
+    at C (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:14258)
+    at Object.basename (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:22494)
+    at i.groupImportantTipsByExe (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:5099)
+    at i.collectTips (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:4594)
+    at async file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:3791
+[2021-07-08 12:18:54.817] [sharedprocess] [info] Starting to clean up unused language packs.

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+declare -a arrpack
+declare -i counter=0
+
+package=$(pacman -Qei | awk '/^Name/ { name=$3 } /^Groups/ { if ( $3 != "base" && $3 != "base    -devel" ) { print name } }')
+
+
+for i in $package; do
+arrpack+=($i)
+done
+
+
+while [ $counter -eq ${#arrpack[@]} ]; do
+
+  echo "$counter"
+  
+  counter=$($counter+1)
+  done 

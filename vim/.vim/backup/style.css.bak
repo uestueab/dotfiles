@@ -1,0 +1,181 @@
+/*
+ Usefull tags within: 
+
+a --> affects link colors
+
+*/
+/* Body */
+body {
+	background: url("universe_this.jpg");
+	font: 1.2em 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #cccccc
+        
+        /*#FFF;*/
+	}
+.preload {
+      	transition: none;
+        /* the following will prevent text selection */
+        -moz-user-select: none; /* Firefox */
+         -ms-user-select: none; /* Internet Explorer */
+                        -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+                          -webkit-user-select: none; /* Chrome, Safari, and Opera */
+                            -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+        }
+
+h1 {
+	font: 4.0em 'Lobster', cursive;
+	text-align: center;
+	color: #cccccc /* "Welcome" */
+        }
+
+
+/* Links */
+ul {
+	list-style-type: none;
+	margin-top: 20px;
+	padding-left: 0;
+	}
+li {
+	padding-left: 16px;
+	border-radius: 20px;
+	height: 24px;
+	}
+li:hover {
+	background: #EEE;
+	box-shadow: 0 0 6px #FFF;
+	transition: 0.15s linear;
+	}
+li a {
+	margin-left: -16px;
+	padding: 0 8px;
+	}
+a {
+	display: block;
+	width: 100%;
+        color: #cccccc;
+	text-decoration: none;
+        text-shadow: 2px 2px 2px #000000; 
+	cursor: default;
+	
+        }
+a:hover {
+	color: #000;
+	transition: 0.15s linear;
+	}
+
+
+
+
+/* Containers */
+#boxes {
+	width: 99%;
+	margin: 0 1%;
+	}
+.box {
+	float: left;
+	width: 18%;
+	margin: 0 3px;
+	opacity: 0.5;
+	transition: 0.15s linear;
+	}
+.box:hover, .sbox:hover {
+	opacity: 1.0;
+	transition: 0.15s linear;
+	}
+.box h4, .sbox h4 {
+	margin: 0 0 0 0;
+	font: 1.5em 'Roboto Condensed', Tamsyn;
+	text-align: center;
+	border-bottom: 1px #FFF solid;
+	color:  #cccccc;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #000000;
+        }
+
+
+/* Search Boxes */
+.sbox {
+	float: left;
+	width: 25%;
+	margin: 0 3px;
+	opacity: 0.9;
+	transition: 0.15s linear;
+	}
+#search {
+	width: 100%;
+	margin-top: 8px;
+	border-spacing: 1px;
+	}
+form {
+	height: 25px;
+	}
+td a {
+	font-size: 1.2em;
+	font-weight: 300;
+	border-radius: 20px;
+	line-height: 25px;
+	}
+td:hover a {
+	background: #EEE;
+	box-shadow: 0 0 4px #FFF;
+	color: #000;
+	transition: 0.15s linear;
+	}
+td {
+	padding: 0 0 0 0;
+	min-height: 25px;
+	max-height: 25px;
+	margin-top: -2px;
+	}
+td:nth-child(1) {
+	float: left;
+	width: 30%;
+	text-align: center;
+	}
+td:nth-child(2) {
+	float: right;
+	width: 65%;
+	}
+input {
+	height: 20px;
+	width: 80%;
+	margin-top: 2px;
+	padding: 0 0 0 8px;
+	border: none;
+	border-radius: 20px;
+	opacity: 0.8;
+	cursor: default;
+	transition: 0.15s linear;
+	}
+input:hover, input:focus {
+	width: 100%;
+	opacity: 1.0;
+	box-shadow: 0 0 4px #FFF;
+	}
+
+#timeArea {
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+  #timeArea .time {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 20px 20px;
+    text-shadow: 1px 1px 1px grey; }
+    #timeArea .time .date {
+      display: block;
+      margin-top: -10px;
+      font-size: 25px; }
+
+
+
+.video {
+   position: absolute;
+  bottom: 0;
+  right: 0; 
+    margin: 10;
+    padding: 0 0 20px 20px;
+      margin-top: -10px;
+  }

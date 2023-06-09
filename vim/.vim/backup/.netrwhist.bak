@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/geeray/.config/i3'
+let g:netrw_dirhist_2='/home/geeray/.config'
+let g:netrw_dirhist_3='/home/geeray/.config/i3blocks'
+let g:netrw_dirhist_4='/home/geeray/.config/termite'
+let g:netrw_dirhist_5='/home/geeray/.emacs.d'

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+read -p "> pattern: " a
+read -p "> substitute with: " b
+
+for f in * ; do mv $f $(echo $f | sed -e 's/'$a'/'$b'/g'); done

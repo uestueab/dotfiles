@@ -1,0 +1,163 @@
+<html>
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Roboto|Roboto:300|Roboto+Condensed' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Start</title>
+
+	<script>
+	window.addEventListener('preload', function load() {
+	window.removeEventListener('preload', load, false);
+	document.body.classList.remove('preload');
+	}, false);
+	</script>
+</head>
+
+<body class="preload">
+<h1>Welcome to the Web.</h1>
+<div id="boxes">
+
+	<div class="box"><h4>Studium</h4>
+		<ul>
+			<li><a href="https://github.com/alecdtatum/start"> Link #1 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #2 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #3 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #4 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #5 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #6 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #7 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #8 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #9 </a></li>
+		</ul>
+	</div>
+
+	<div class="box"><h4>Community</h4>
+		<ul>
+			<li><a href="https://github.com/alecdtatum/start"> Link #1 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #2 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #3 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #4 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #5 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #6 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #7 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #8 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #9 </a></li>
+		</ul>
+	</div>
+
+
+
+	<div class="sbox"><h4>Search</h4>
+		<table id="search">
+
+			<tr>
+				<td><a href="https://startpage.com">Startpage</a></td>
+				<td>
+					<form action="https://startpage.com/do/search" method="post">
+					<input type="text" name="q" autofocus/></form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><a href="https://www.google.de/search?q=">Google</a></td>
+				<td>
+					<form action="https://www.google.de/search?q=" method="post">
+					<input type="text" name="q" value="" placeholder="Search" /></form>
+				</td>
+			</tr>
+
+			<tr>
+				<td><a href="https://startpage.com">Search #3</a></td>
+				<td>
+					<form action="https://startpage.com/do/search" method="post">
+					<input type="text" name="q" autofocus/></form>
+				</td>
+			</tr>
+
+			<tr>
+				<td><a href="https://startpage.com">Search #4</a></td>
+				<td>
+					<form action="https://startpage.com/do/search" method="post">
+					<input type="text" name="q" autofocus/></form>
+				</td>
+			</tr>
+
+			<tr>
+				<td><a href="https://startpage.com">Search #5</a></td>
+				<td>
+					<form action="https://startpage.com/do/search" method="post">
+					<input type="text" name="q" autofocus/></form>
+				</td>
+			</tr>
+
+			<tr>
+				<td><a href="https://startpage.com">Search #6</a></td>
+				<td>
+					<form action="https://startpage.com/do/search" method="post">
+					<input type="text" name="q" autofocus/></form>
+				</td>
+			</tr>
+
+			<tr>
+				<td><a href="https://startpage.com">Search #7</a></td>
+				<td>
+					<form action="https://startpage.com/do/search" method="post">
+					<input type="text" name="q" autofocus/></form>
+				</td>
+			</tr>
+
+			<tr>
+				<td><a href="https://startpage.com">Search #8</a></td>
+				<td>
+					<form action="https://startpage.com/do/search" method="post">
+					<input type="text" name="q" autofocus/></form>
+				</td>
+			</tr>
+
+			<tr>
+				<td><a href="https://startpage.com">Search #9</a></td>
+				<td>
+					<form action="https://startpage.com/do/search" method="post">
+					<input type="text" name="q" autofocus/></form>
+				</td>
+			</tr>
+
+		</table>
+	</div>
+
+
+	<div class="box"><h4>Group #3</h4>
+		<ul>
+			<li><a href="https://github.com/alecdtatum/start"> Link #1 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #2 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #3 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #4 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #5 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #6 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #7 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #8 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #9 </a></li>
+		</ul>
+	</div>
+
+
+	<div class="box"><h4>Group #4</h4>
+		<ul>
+			<li><a href="https://github.com/alecdtatum/start"> Link #1 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #2 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #3 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #4 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #5 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #6 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #7 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #8 </a></li>
+			<li><a href="https://github.com/alecdtatum/start"> Link #9 </a></li>
+		</ul>
+	</div>
+
+</div>
+
+</body>
+
+</html>

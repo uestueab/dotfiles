@@ -1,0 +1,11 @@
+#ingore errors
+--ignore-errors
+
+# Download best format available but no better than 480p
+-f 'bestvideo[height<=480]+bestaudio/best[height<=480]'
+
+#subtitle language
+# --sub-lang enUS
+
+#write sub
+# --write-sub

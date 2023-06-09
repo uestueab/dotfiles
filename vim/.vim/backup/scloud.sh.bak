@@ -1,0 +1,23 @@
+#!/bin/bash
+##simple script to get streamcloud links of a certain website
+##links are stored in a .txt file
+#use with youtube-dl for maximum efficiency
+
+#time - usefull for individual .txt files
+today=`date '+%H_%M_%S'`;
+
+#name of series
+
+read -p "name of series? " series
+
+# type number of episodes
+read -p "how many episodes? " number
+#it is assumed that urls follow this behavior http://serienstream.to/serie/stream/detektiv-conan/staffel-13
+read -p "url of season? " season
+
+#iterate through urls to get streamcloud link
+for (( x=1; x<=$number; x++ ))
+{
+    lynx -listonly -nonumbers -dump $season/episode-$x | grep streamcloud >> $series.$today.txt
+}
+

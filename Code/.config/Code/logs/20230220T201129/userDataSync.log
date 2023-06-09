@@ -1,0 +1,7 @@
+2023-02-20 20:11:39.111 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2023-02-20 20:11:39.111 [info] Auto Sync is disabled.
+2023-02-20 20:11:42.580 [info] Deleting non existing profile from backup /home/geeray/.config/Code/User/sync/extensions
+2023-02-20 20:11:42.868 [info] Deleting non existing profile from backup /home/geeray/.config/Code/User/sync/globalState
+2023-02-20 20:11:43.533 [info] Deleting non existing profile from backup /home/geeray/.config/Code/User/sync/keybindings
+2023-02-20 20:11:43.760 [info] Deleting non existing profile from backup /home/geeray/.config/Code/User/sync/settings
+2023-02-20 20:11:44.019 [info] Deleting non existing profile from backup /home/geeray/.config/Code/User/sync/snippets

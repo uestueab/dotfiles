@@ -1,0 +1,3 @@
+2023-02-20 20:16:23.940 [info] Electron sandbox mode is enabled!
+2023-02-20 20:16:24.664 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-20 20:16:38.354 [info] [perf] Render performance baseline is 336ms

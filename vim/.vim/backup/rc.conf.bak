@@ -1,0 +1,6 @@
+set preview_images true
+
+
+#Keybinds
+#map <DELETE> console delete
+map <d> console delete

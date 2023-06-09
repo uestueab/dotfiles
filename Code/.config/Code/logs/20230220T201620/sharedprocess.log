@@ -1,0 +1,5 @@
+2023-02-20 20:16:31.370 [info] Starting worker process with pid 21314 (type: fileWatcher, window: 1).
+2023-02-20 20:16:32.004 [info] Deleted from disk ms-vscode-remote.remote-ssh-edit /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.80.0
+2023-02-20 20:16:32.038 [info] Deleted from disk vscodevim.vim /home/geeray/.vscode/extensions/vscodevim.vim-1.22.2
+2023-02-20 20:16:32.685 [info] Deleted from disk ms-vscode-remote.remote-ssh /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-0.78.0
+2023-02-20 20:16:35.104 [error] [uncaught exception in sharedProcess]: Channel name 'extensionRecommendationNotification' timed out after 1000ms

@@ -1,0 +1,37 @@
+2023-02-20 20:11:39.939 [info] Started initializing default profile extensions in extensions installation folder. file:///home/geeray/.vscode/extensions
+2023-02-20 20:11:40.733 [info] Starting worker process with pid 17364 (type: fileWatcher, window: 1).
+2023-02-20 20:11:41.109 [info] Deleted from disk vscodevim.vim /home/geeray/.vscode/extensions/vscodevim.vim-1.21.5
+2023-02-20 20:11:41.190 [info] Deleted from disk ms-vscode-remote.remote-ssh-edit /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.65.7
+2023-02-20 20:11:41.927 [info] Deleted from disk formulahendry.auto-rename-tag /home/geeray/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6
+2023-02-20 20:11:41.931 [info] Deleted from disk ms-vscode-remote.remote-ssh /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-0.65.7
+2023-02-20 20:11:42.457 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/geeray/.vscode/extensions
+2023-02-20 20:11:44.558 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-20 20:11:48.537 [info] Getting Manifest... ms-vscode-remote.remote-ssh
+2023-02-20 20:11:48.549 [info] Getting Manifest... ms-vscode-remote.remote-ssh-edit
+2023-02-20 20:11:48.551 [info] Getting Manifest... vscodevim.vim
+2023-02-20 20:11:49.201 [info] Installing extension: ms-vscode-remote.remote-ssh-edit
+2023-02-20 20:11:49.212 [info] Installing extension: ms-vscode-remote.remote-ssh
+2023-02-20 20:11:49.363 [info] Installing extension: vscodevim.vim
+2023-02-20 20:11:50.779 [info] Getting Manifest... ms-vscode.remote-explorer
+2023-02-20 20:11:51.988 [info] Installing extension: ms-vscode.remote-explorer ms-vscode-remote.remote-ssh
+2023-02-20 20:11:53.610 [info] Extracted extension to /home/geeray/.vscode/extensions/.5e6e7e4a-8153-4791-87b7-5ad08f1a0f0d: ms-vscode-remote.remote-ssh-edit
+2023-02-20 20:11:53.711 [info] Renamed to /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.84.0
+2023-02-20 20:11:53.723 [info] Extracting completed. ms-vscode-remote.remote-ssh-edit
+2023-02-20 20:11:53.794 [info] Extension installed successfully: ms-vscode-remote.remote-ssh-edit
+2023-02-20 20:11:53.851 [info] Marked extension as uninstalled ms-vscode-remote.remote-ssh-edit-0.80.0
+2023-02-20 20:11:54.264 [warning] Extension signature verification: ms-vscode.remote-explorer. Verification status: UnknownError.
+2023-02-20 20:11:54.272 [info] Extracted extension to /home/geeray/.vscode/extensions/.9dbcc52b-6581-46e5-951a-10b435b6dd99: vscodevim.vim
+2023-02-20 20:11:54.326 [info] Renamed to /home/geeray/.vscode/extensions/vscodevim.vim-1.24.3
+2023-02-20 20:11:54.340 [info] Extracting completed. vscodevim.vim
+2023-02-20 20:11:54.415 [info] Extension installed successfully: vscodevim.vim
+2023-02-20 20:11:54.535 [info] Marked extension as uninstalled vscodevim.vim-1.22.2
+2023-02-20 20:11:54.658 [info] Extracted extension to /home/geeray/.vscode/extensions/.911fa36f-eee3-4d24-819d-58cf154ea68b: ms-vscode.remote-explorer
+2023-02-20 20:11:54.706 [info] Renamed to /home/geeray/.vscode/extensions/ms-vscode.remote-explorer-0.2.0
+2023-02-20 20:11:54.712 [info] Extracting completed. ms-vscode.remote-explorer
+2023-02-20 20:11:56.745 [warning] Extension signature verification: ms-vscode-remote.remote-ssh. Verification status: UnknownError.
+2023-02-20 20:11:58.539 [info] Extracted extension to /home/geeray/.vscode/extensions/.00f3c8f8-0fd1-448a-b449-7558278a2331: ms-vscode-remote.remote-ssh
+2023-02-20 20:11:58.599 [info] Renamed to /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-0.96.0
+2023-02-20 20:11:58.611 [info] Extracting completed. ms-vscode-remote.remote-ssh
+2023-02-20 20:11:58.758 [info] Extension installed successfully: ms-vscode.remote-explorer
+2023-02-20 20:11:58.758 [info] Extension installed successfully: ms-vscode-remote.remote-ssh
+2023-02-20 20:11:58.835 [info] Marked extension as uninstalled ms-vscode-remote.remote-ssh-0.78.0

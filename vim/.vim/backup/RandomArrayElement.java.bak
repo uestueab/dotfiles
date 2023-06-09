@@ -1,0 +1,29 @@
+public class RandomArrayElement {
+  public static void main (String[] args) {
+    
+    String[] freund={"Semi","Wesley","Rocko","Diego"};
+            
+    int     freundLength  = freund.length;
+
+
+    int     rand1         = (int)   (Math.random() * freundLength);
+
+
+    String  freundChoice  = freund[rand1];
+
+
+    System.out.println(freundChoice + " ist ein Nigger");
+    
+    
+    
+    
+    
+    
+    }
+  
+  
+  
+  
+  
+  
+  }

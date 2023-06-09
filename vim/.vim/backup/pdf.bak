@@ -1,0 +1,11 @@
+#!/bin/bash
+
+pdf() {
+
+zathura "$1" &
+
+}
+
+pdf 
+
+

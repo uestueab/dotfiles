@@ -1,0 +1,30 @@
+#!/bin/bash
+exec 2> /dev/null
+
+
+
+STRING="$1"   ##pattern to look for
+pw="$2" ##if pdfs require password
+
+DIR=$(zenity --file-selection --filename="~/uni" --directory) ##chose directory of pdf's
+
+
+FILE=$(find $DIR -iname '*.pdf' -exec pdfgrep -rn --password=$pw "$STRING" {} + | egrep -o '^[^:]+' | uniq) ###get filenames 
+## pages=$(pdfgrep -n --password=$pw "$STRING" $FILE | cut -f1 -d ":" | uniq) ##find each page of file containing pattern
+
+#find ~/uni/sm_4/wipo/Uebung -iname '*.pdf' -exec pdfgrep -n --password=VVanberg "Wohlfahrtsökonomik" {} + | cut -f2 -d ":" ##get page numbers
+split()
+{
+for pdf in $FILE; do ##for every file
+  echo -n checking $pdf
+
+for i in $(pdfgrep -n --password=$pw "$STRING" $pdf | cut -f1 -d ":" | uniq); do
+  pdftk "$pdf" input_pw $pw  cat $i output "${pdf}_page_${i}.pdf" 
+   done
+   echo ' Done'
+done
+}
+
+split
+pdftk *_page_*.pdf cat output "$STRING.pdf" 
+

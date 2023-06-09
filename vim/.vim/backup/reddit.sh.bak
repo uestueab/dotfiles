@@ -1,0 +1,34 @@
+#!/bin/bash
+
+output="down"  ##download folder
+subreddit=$1   ##chose subreddit
+
+url="http://www.reddit.com/r/$subreddit/.json"             ##full url of chosen subreddit
+content=`wget --no-check-certificate -q -O - $url`         ##get url content
+
+mkdir -p $output                                          ##create download folder
+
+while : ; do
+    urls=$(echo -e "$content"|grep -Po '"url":.*?[^\\]",'|cut -f 4 -d '"' | grep imgur)         ##get imgur links
+    names=$(echo -e "$content"|grep -Po '"title":.*?[^\\]",'|cut -f 4 -d '"' | grep -v Imgur)   ##get content name
+    ids=$(echo -e "$content"|grep -Po '"id":.*?[^\\]",'|cut -f 4 -d '"')                        ##get id's
+    a=1
+    for url in $(echo -e "$urls"); do
+        if [ -n  "`echo "$url"|egrep \".gif|.jpg\"`" ]; then #The length of $url is greater than zero.
+            #echo -n "$url: "
+            name=`echo -e "$names"|sed -n "$a"p`
+            id=`echo -e "$ids"|sed -n "$a"p`
+            echo "get: $url"
+            newname="$name"_"$subreddit"_$id.${url##*.}
+            wget --no-check-certificate -nv -nc -P down -O "$output/$newname" $url  ##download content and rename
+        fi
+        a=$(($a+1))
+    done
+    after=$(echo -e "$content"|grep -Po '"after":.*?[^\\]",'|cut -f 4 -d '"'|tail -n 1)  ##get id of next page
+    if [ -z $after ]; then  ##terminate if there is not next page
+        break
+    fi
+    url="http://www.reddit.com/r/$subreddit/.json?count=200&after=$after" ## new url
+    content=`wget --no-check-certificate -q -O  $url` ## get content of new url
+    #echo -e "$urls"
+done

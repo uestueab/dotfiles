@@ -1,0 +1,78 @@
+###########################
+# xbindkeys configuration #
+###########################
+#
+# Version: 0.1.3
+#
+# If you edit this, do not forget to uncomment any lines that you change.
+# The pound(#) symbol may be used anywhere for comments.
+#
+# A list of keys is in /usr/include/X11/keysym.h and in
+# /usr/include/X11/keysymdef.h 
+# The XK_ is not needed. 
+#
+# List of modifier (on my keyboard): 
+#   Control, Shift, Mod1 (Alt), Mod2 (NumLock), 
+#   Mod3 (CapsLock), Mod4, Mod5 (Scroll). 
+#
+# Another way to specifie a key is to use 'xev' and set the 
+# keycode with c:nnn or the modifier with m:nnn where nnn is 
+# the keycode or the state returned by xev 
+#
+# This file is created by xbindkey_config 
+# The structure is : 
+# # Remark 
+# "command" 
+# m:xxx + c:xxx 
+# Shift+... 
+
+
+
+
+keystate_numlock = enable
+keystate_scrolllock = enable
+keystate_capslock = enable
+
+
+
+#twitch | rbtv
+"livestreamer -p mpv https://www.twitch.tv/rocketbeanstv high"
+   alt+r
+
+#toggle mute/unmute
+"pactl set-sink-mute 0 toggle"
+    m:0x0 + c:121
+    XF86AudioMute 
+
+#dim screen
+"xbacklight -dec 5%"
+    m:0x0 + c:232
+    XF86MonBrightnessDown 
+
+#brighten screen
+"xbacklight -inc 5%"
+    m:0x0 + c:233
+    XF86MonBrightnessUp 
+
+#inc. volume
+"amixer set %s %s+"
+    m:0x0 + c:123
+    XF86AudioRaiseVolume 
+
+#dec. volume
+"amixer set %s %s-"
+    m:0x0 + c:122
+    XF86AudioLowerVolume 
+
+#switch keyboard layout
+"setxkbmap -option grp:alt_shift_toggle us,de"
+    m:0x4 + c:65
+    Control + space 
+
+#watch copied yt video
+"mpv --ytdl "$(xclip -o)""
+    m:0x5 + c:10
+    Control+Shift + 1 
+
+#
+# End of xbindkeys configuration

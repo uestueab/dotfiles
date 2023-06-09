@@ -1,0 +1,12 @@
+public class Loopy {
+  public static void main(String[]args)(
+  int x = 1;
+  System.out.println("BeforetheLoop");
+  while(x < 4) {
+    System.out.println("Intheloop");
+    System.out.prlntln("Valueofxis"+x);
+    x = x + 1;
+    )
+  System.out.println("Thisisaftertheloop");
+}
+}

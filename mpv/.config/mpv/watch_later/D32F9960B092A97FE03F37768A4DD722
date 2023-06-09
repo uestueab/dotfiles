@@ -1,0 +1,4 @@
+start=22.990000
+pause=yes
+vf=crop=h=401:y=70:x=648:w=628
+video-aspect=1.777778

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+dtrx $1 && rm $1

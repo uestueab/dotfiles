@@ -1,0 +1,11 @@
+// This is the actual config file, written in JavaScript. It is in this file you
+// add custom commands and set options, or whatever you'd like to do.
+
+console.log('Hello, world! This is vimfx:', vimfx)
+
+let map = (shortcuts, command, custom=false) => {
+  vimfx.set(`${custom ? 'custom.' : ''}mode.normal.${command}`, shortcuts)
+}
+
+map('<late><left>', 'tab_move_backward')
+map('<late><right>', 'tab_move_forward')

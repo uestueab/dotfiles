@@ -1,0 +1,4 @@
+[2021-06-10 11:38:19.024] [main] [info] update#setState idle
+[2021-06-10 11:38:20.730] [main] [error] file: Refused to load resource /usr/lib/code/extensions/theme-seti/icons/seti.woff from file: protocol (original URL: file:///usr/lib/code/extensions/theme-seti/icons/seti.woff)
+[2021-06-10 11:38:49.025] [main] [info] update#setState checking for updates
+[2021-06-10 11:38:49.068] [main] [info] update#setState idle

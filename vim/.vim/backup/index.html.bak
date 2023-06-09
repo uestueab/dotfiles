@@ -1,0 +1,100 @@
+<html>
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Roboto|Roboto:300|Roboto+Condensed' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Start</title>
+
+	<script>
+	window.addEventListener('preload', function load() {
+	window.removeEventListener('preload', load, false);
+	document.body.classList.remove('preload');
+	}, false);
+	</script>
+</head>
+
+<body class="preload">
+ <h1>Welcome.</h1>
+
+<div id="boxes">
+
+	<div class="box"><h4>Studium</h4>
+		<ul>
+                      <li><a href="https://ilias.uni-freiburg.de/login.php?target=&soap_pw=&ext_uid=&cookies=nocookies&client_id=unifreiburg&lang=de">Ilias</a></li>
+                      <li><a href="https://campus.uni-freiburg.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?chco=y">HISinOne</a></li>
+                      <li><a href="https://www.verwaltung.uni-freiburg.de/lsfserver/rds?state=user&type=0&breadCrumbSource=portal">Lsf</a></li>
+                      <li><a href="https://www.ub.uni-freiburg.de/nutzen-leihen/wie-leihe-ich-aus/">Uni Bibliothek</a></li>
+                      <li><a href="https://www.wipo.uni-freiburg.de/Lehre/sommer-semester-2016-4/grundlagen-der-wirtschaftspolitik">Wirtschaftspoltik</a></li>
+
+                </ul>
+	</div>
+
+	<div class="box"><h4>Community</h4>
+		<ul>
+                      <li><a href="http://www.rocketbeans.tv/wochenplan/">RbTV</a></li>
+                      <li><a href="https://www.reddit.com/">Reddit</a></li>
+                      <li><a href="https://www.youtube.com/">Youtube</a></li> 
+                </ul>
+	</div>
+
+
+
+	<div class="sbox"><h4>Search</h4>
+		<table id="search">
+
+			<tr>
+				<td><a href="https://www.google.de/search?q=">Google</a></td>
+				<td>
+					<form action="https://www.google.de/search?q=" method="get">
+					<input type="text" name="q" value="" placeholder="Search" autocomplete="off" /></form>
+				</td>
+			</tr>
+
+			</table>
+	</div>
+
+
+
+
+	<div class="box"><h4>4chan</h4>
+		<ul>
+                          <li><a href="http://boards.4chan.org/wsg/">/wsg/</a></li>
+                          <li><a href="http://boards.4chan.org/g/">/g/</a></li>
+                          <li><a href="http://boards.4chan.org/wg/">/wg/</a></li>
+                          <li><a href="http://boards.4chan.org/adv/">/adv/</a></li>
+                                                      
+                                                                  </ul> 
+                </ul>
+	</div>
+
+
+	<div class="box"><h4>Repository</h4>
+		<ul>
+		              <li><a href="https://github.com/gitgeeray/dotfiles">github</a></li>
+                              <li><a href="https://github.com/ahodesuka/dotfiles">ahodesuka</a></li>
+                              <li><a href="http://dotshare.it/">dotshare.it</a></li>
+                              <li><a href="http://twily.info/">twily</a></li>
+                </ul>
+	</div>
+
+</div>
+<div id="timeArea">
+			<p class="time"><span class="timeInner"></span> <span class="date"></span></p>
+		</div>
+	
+<!--  This will include a video, to use another video make sure to inculude it's proper filename 
+<div class="video">
+<video  autoplay control loop muted width="120" controls>
+  <source src="grille.webm" type="video/webm">
+  <source src="grille.webm" type="video/webm">
+  Your browser does not support HTML5 video.
+</video>
+</div>
+-->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+</body>
+
+</html>

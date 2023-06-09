@@ -1,0 +1,34 @@
+class Player {
+  String  name;
+  int     hp;
+  int     kraft;
+  
+  
+  void action() {
+    
+    if (s)
+    
+    }
+  
+  }
+
+public class test {
+public static void main (String[] args) {
+  
+Player one = new Player();
+one.name   = "Adam";
+one.hp     = 400;
+one.kraft  = 60;
+
+
+Player two = new Player();
+two.name  = "Henry";
+two.hp    = 500;
+two.kraft = 50;
+  
+String[] init = {one.name,two.name};
+
+System.out.println(init[0]);  
+  
+  }
+}

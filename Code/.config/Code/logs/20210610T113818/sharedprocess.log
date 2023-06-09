@@ -1,0 +1,8 @@
+[2021-06-10 11:38:23.004] [sharedprocess] [info] Deleted from disk gerane.theme-azure /home/geeray/.vscode/extensions/gerane.theme-azure-0.0.2
+[2021-06-10 11:38:23.019] [sharedprocess] [info] Deleted from disk formulahendry.auto-rename-tag /home/geeray/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0
+[2021-06-10 11:38:25.718] [sharedprocess] [error] [uncaught exception in sharedProcess]: The "path" argument must be of type string. Received type undefined: Error: The "path" argument must be of type string. Received type undefined
+    at b (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:14135)
+    at basename (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:14:22371)
+    at n.groupImportantTipsByExe (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:5088)
+    at n.collectTips (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:4567)
+    at async file:///opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:47:3764

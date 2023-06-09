@@ -1,0 +1,29 @@
+2023-02-20 20:16:29.647 [info] Extension host with pid 21258 started
+2023-02-20 20:16:30.115 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-20 20:16:30.151 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-02-20 20:16:30.163 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2023-02-20 20:16:30.241 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-02-20 20:16:31.257 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-20 20:16:33.474 [info] Eager extensions activated
+2023-02-20 20:16:34.161 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-20 20:16:34.174 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-20 20:16:37.222 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-02-20 20:16:37.579 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-02-20 20:16:51.666 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-20 20:16:51.702 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-20 20:16:51.860 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-20 20:31:34.846 [info] Extension host terminating: renderer closed the MessagePort
+2023-02-20 20:31:36.538 [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/geeray/.vscode/extensions/vscodevim.vim-1.24.3/src/register/register.ts:326:30)
+    at Object.e.deactivate (/home/geeray/.vscode/extensions/vscodevim.vim-1.24.3/extension.ts:65:18)
+    at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11042)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-02-20 20:31:36.596 [info] Extension host with pid 21258 exiting with code 0

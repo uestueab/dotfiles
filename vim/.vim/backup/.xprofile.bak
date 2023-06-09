@@ -1,0 +1,7 @@
+#!/bin/sh
+
+
+# execute before x session
+
+nitrogen --restore &
+xset s off &

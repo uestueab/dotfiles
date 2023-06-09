@@ -1,0 +1,23 @@
+public class Player {
+   int    hp;
+   int    mana;
+   int    dmg;
+   int    lvl; 
+}
+
+public class game {
+public static void main(String[] args) {
+  
+  Player wesley = new Player();
+      wesley.hp = 700;
+    wesley.mana = 100;
+    wesley.dmg  = 54;
+    wesley.lvl  = 1;
+  
+  
+  
+  }
+  
+  
+  
+  }

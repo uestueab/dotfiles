@@ -1,0 +1,3 @@
+2023-02-20 20:33:09.794 [info] Starting worker process with pid 22214 (type: fileWatcher, window: 1).
+2023-02-20 20:33:12.869 [error] [uncaught exception in sharedProcess]: Channel name 'extensionRecommendationNotification' timed out after 1000ms
+2023-02-20 20:33:13.288 [warning] No ptyHost heartbeat after 6 seconds

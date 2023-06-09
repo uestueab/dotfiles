@@ -1,0 +1,33 @@
+[2021-06-10 11:47:50.800] [renderer1] [error] Could not find step with ID: settingsSync: Error: Could not find step with ID: settingsSync
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1771:4583
+    at a.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1836)
+    at _.progressStep (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1770:65074)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1770:65473
+    at Array.forEach (<anonymous>)
+    at _.progressByEvent (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1770:65457)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1770:56628
+    at a.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1836)
+    at r.onDidStorageChange (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:733:128074)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:733:127620
+    at m.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1836)
+    at m.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:60:2666)
+    at w.emitDidChangeValue (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:637:4929)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:637:19714
+    at a.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1836)
+    at E.accept (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:28117)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:27859
+    at Map.forEach (<anonymous>)
+    at E.onDidChangeItemsExternal (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:27839)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:27737
+    at a.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1836)
+    at R.onDidChangeGlobalStorage (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:637:18247)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:637:18104
+    at a.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1836)
+    at X (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:3423)
+    at _.onResponse (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:4399)
+    at _.onBuffer (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:4239)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:1817
+    at a.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1836)
+    at EventEmitter.V (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:58:60442)
+    at EventEmitter.emit (events.js:315:20)
+    at Object.onMessage (electron/js2c/renderer_init.js:121:1082)

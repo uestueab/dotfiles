@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/geeray/.config/alacritty'
+let g:netrw_dirhist_1='/home/geeray/.vim/colors'
+let g:netrw_dirhist_0='/home/geeray/ani-cli'
+let g:netrw_dirhist_9='/home/geeray/coding/java/sm2_refined/net/mattcarpenter/srs/sm2'
+let g:netrw_dirhist_8='/home/geeray/uni/win-this/21000 Datenbanken 1/Live Files Sommersemester 2021/2021_06_29/live_files_ss_21/SportsmanJPA/src/model/entity'
+let g:netrw_dirhist_7='/home/geeray'
+let g:netrw_dirhist_6='/home/geeray/.config/alacritty'
+let g:netrw_dirhist_5='/home/geeray/.zprezto'
+let g:netrw_dirhist_4='/home/geeray/coding/csharp/Application'
+let g:netrw_dirhist_3='/home/geeray/.config/zathura'

@@ -1,0 +1,56 @@
+class Player {
+   int    hp;
+   int    mana;
+   int    dmg;
+   int    lvl; 
+   String type;
+   String name;
+
+void skill() {
+  
+  if (hp > 600) {
+    System.out.println(name +" Is durable");
+   
+    }else if (hp > 400 ) {
+      
+      System.out.println(name + " Is strong");
+      
+      } else {
+        
+        System.out.println(name +" Is vulnerable");
+        
+        }  
+  
+  }
+}
+
+public class game {
+public static void main(String[] args) {
+  
+  Player wesley = new Player();
+      wesley.hp = 700;
+    wesley.mana = 100;
+    wesley.dmg  = 54;
+    wesley.lvl  = 1;
+    wesley.type = "Strength";
+    wesley.name = "Wesley"; 
+
+  Player semi  = new Player();
+      semi.hp = 400;
+    semi.mana = 300;
+    semi.dmg  = 38;
+    semi.lvl  = 1;
+    semi.type = "Intelligence";
+    semi.name = "Semi"; 
+    
+   wesley.skill();
+   semi.skill();
+  
+  }
+
+
+  }
+  
+  
+  
+  

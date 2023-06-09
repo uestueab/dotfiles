@@ -1,0 +1,32 @@
+
+# cache settings
+cache=auto
+cache-default=8000000
+cache-initial=1000
+cache-seek-min=2000
+
+
+# default/forced sub style
+sub-text-font="Fontin Sans Rg"
+sub-text-font-size=42
+sub-text-margin-x=120
+sub-text-margin-y=40
+sub-text-color="#ffffff"
+sub-text-border-color="#00022d"
+sub-text-border-size=3
+sub-text-shadow-offset=2
+sub-text-shadow-color="#0600a042"
+
+# ui settings
+fullscreen=yes
+
+# misc settings
+hr-seek=yes
+ytdl=yes
+ytdl-format=bestvideo+bestaudio/best
+screenshot-format="png"
+screenshot-template="~/media/screenshots/mpv-shot_%n"
+
+
+# sound setttings
+softvol-max=600

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DIR=$(zenity --file-selection --multiple --file-filter='PDF files (pdf) | *.pdf' --title="Select a PDF file"
+)
+
+echo "$DIR"

@@ -1,0 +1,29 @@
+[2022-04-21 09:22:18.286] [sharedprocess] [info] Starting worker process with pid 1316 (type: fileWatcher, window: 1).
+[2022-04-21 09:22:21.069] [sharedprocess] [info] Getting Manifest... formulahendry.auto-rename-tag
+[2022-04-21 09:22:21.072] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.remote-ssh
+[2022-04-21 09:22:21.072] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.remote-ssh-edit
+[2022-04-21 09:22:21.073] [sharedprocess] [info] Getting Manifest... vscodevim.vim
+[2022-04-21 09:22:21.930] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh
+[2022-04-21 09:22:21.932] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh-edit
+[2022-04-21 09:22:21.967] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2022-04-21 09:22:21.975] [sharedprocess] [info] Installing extension: formulahendry.auto-rename-tag
+[2022-04-21 09:22:23.331] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh-edit /home/geeray/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-edit-0.80.0
+[2022-04-21 09:22:23.408] [sharedprocess] [info] Extracted extension to /home/geeray/.vscode/extensions/.88345c55-2bfc-4466-8c09-9e4c29829998: ms-vscode-remote.remote-ssh-edit
+[2022-04-21 09:22:23.447] [sharedprocess] [info] Renamed to /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.80.0
+[2022-04-21 09:22:23.450] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-ssh-edit
+[2022-04-21 09:22:23.493] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-ssh-edit
+[2022-04-21 09:22:23.877] [sharedprocess] [info] Downloaded extension: formulahendry.auto-rename-tag /home/geeray/.config/Code/CachedExtensionVSIXs/formulahendry.auto-rename-tag-0.1.10
+[2022-04-21 09:22:23.940] [sharedprocess] [info] Extracted extension to /home/geeray/.vscode/extensions/.73afe40c-859e-4e0c-9389-30d42284cb58: formulahendry.auto-rename-tag
+[2022-04-21 09:22:23.952] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh /home/geeray/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-0.78.0
+[2022-04-21 09:22:23.978] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/geeray/.config/Code/CachedExtensionVSIXs/vscodevim.vim-1.22.2
+[2022-04-21 09:22:23.996] [sharedprocess] [info] Renamed to /home/geeray/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10
+[2022-04-21 09:22:23.999] [sharedprocess] [info] Extracting completed. formulahendry.auto-rename-tag
+[2022-04-21 09:22:24.032] [sharedprocess] [info] Extension installed successfully: formulahendry.auto-rename-tag
+[2022-04-21 09:22:24.266] [sharedprocess] [info] Extracted extension to /home/geeray/.vscode/extensions/.e691ebf9-d81f-4b98-927f-8340e5bc317f: ms-vscode-remote.remote-ssh
+[2022-04-21 09:22:24.298] [sharedprocess] [info] Renamed to /home/geeray/.vscode/extensions/ms-vscode-remote.remote-ssh-0.78.0
+[2022-04-21 09:22:24.303] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-ssh
+[2022-04-21 09:22:24.333] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-ssh
+[2022-04-21 09:22:24.337] [sharedprocess] [info] Extracted extension to /home/geeray/.vscode/extensions/.06eebd5e-9446-44da-a2ce-3c3e2ae4ecd8: vscodevim.vim
+[2022-04-21 09:22:24.384] [sharedprocess] [info] Renamed to /home/geeray/.vscode/extensions/vscodevim.vim-1.22.2
+[2022-04-21 09:22:24.391] [sharedprocess] [info] Extracting completed. vscodevim.vim
+[2022-04-21 09:22:24.445] [sharedprocess] [info] Extension installed successfully: vscodevim.vim
