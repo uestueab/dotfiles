@@ -15,8 +15,9 @@ function f_nvim_one_instance() {
 
         if (( $# < 1 )); then
             # we just ran nvim without any arguments at all
-            tmpfile=$(mktemp /tmp/temp_XXXXXX.txt)
-            command nvim --listen "$serverPath" "$tmpfile" 
+            # tmpfile=$(mktemp /tmp/temp_XXXXXX.txt)
+            # command nvim --listen "$serverPath" "$tmpfile" 
+            command nvim --listen "$serverPath" -c ":FzfLua oldfiles" #lists last edited files
         else
             # we want to edit some real file(s). Remove the first empty buffer
             command nvim --listen "$serverPath" "$@"
