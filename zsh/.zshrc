@@ -31,13 +31,13 @@ export EDITOR=/usr/bin/nvim
 export BAT_PAGER=''
 export FZF_DEFAULT_COMMAND='rg --files'
 export FZF_DEFAULT_OPTS="
-	--color=fg:#DFDFDE,bg:#191724,hl:#ebbcba
-	--color=fg+:#0a0b11,bg+:#e95678,hl+:#ebbcba
-	--color=border:#403d52,header:#31748f,gutter:#212121
-	--color=spinner:#f6c177,info:#9ccfd8,separator:#403d52
-	--color=pointer:#0a0b11,marker:#eb6f92,prompt:#908caa
+	--color=fg:#E1D7C6,bg:#191724,hl:#f6c177
+	--color=fg+:#0a0b11,bg+:#eb6f92,hl+:#403d52
+	--color=border:#403d52,header:#31748f,gutter:#403d52
+	--color=spinner:#f6c177,info:#f6c177,separator:#403d52
+	--color=pointer:#0a0b11,marker:#eb6f92,prompt:#F09383
 
-    --pointer=' 󰘍'
+    --pointer=' '
     --bind ,:cancel,tab:accept,esc:ignore,right:toggle+up
     --reverse
 "
