@@ -58,15 +58,16 @@
 
 (defwidget mode []
   (box
-    :class "mode"
+    :class "${mode == "default" ? "" : "block"} mode"
     :space-evenly false
     :halign "end"
     (label
       :class "separator"
       :visible {mode == "default" ? false : true}
-      :text "|")
+      :text "󰄾")
     (label
       :visible {mode == "default" ? false : true}
+      :class {mode == "default" ? "" : "mode-entered"}
       :text "${mode}")))
 
 ;(defwidget window []

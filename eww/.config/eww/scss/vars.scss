@@ -2,16 +2,21 @@ $background: #0a0b11;
 $foreground: #DFDFDE;
 
 $black:     #212121;
-$black_soft: lighten($black, 40%);
 
 $gray:      #DFDFDE;
-$red:       #F7768E;
-$green:     #73DACA;
+$red:       #E95678;
+$green:     #09f7a0;
 $yellow:    #E0AF68;
 $blue:      #7AA2F7;
 $magenta:   #BB9AF7;
 $cyan:      #7DCFFF;
+$coral:     #F09383;
 $white:     $foreground;
+
+//[colors:soft]
+$black_soft: lighten($black, 40%);
+$magenta_soft: lighten($magenta, 10%);
+$green_soft:     #73DACA;
 
 $secondary: #6272a4;
 $danger:    #ff5555;

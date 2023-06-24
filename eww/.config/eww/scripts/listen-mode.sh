@@ -2,6 +2,6 @@
 
 echo "default";
 while true; do
-    i3-msg -t subscribe '["mode"]' | jq '.change' | xargs
+    i3-msg -t GET_BINDING_STATE | jq '.name' | xargs
     sleep 1.5
 done
