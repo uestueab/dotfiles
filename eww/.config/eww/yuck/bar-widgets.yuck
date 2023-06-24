@@ -44,6 +44,14 @@
       ;:onrightclick "rofi -show power-menu -modi power-menu:rofi-power-menu -config ~/.config/rofi/config-power.rasi &"
       "")))
 
+
+; set $ws1 " 1:web "
+; set $ws2 " 2:term "
+; set $ws3 " 3:vim "
+; set $ws4 " 4:study "
+; set $ws5 " 5:idle "
+; set $ws6 " 6:misc "
+; set $ws7 " 7:Dota2 "
 (defwidget workspaces [monitor]
   (box
     :space-evenly false
@@ -52,9 +60,17 @@
         :cursor "pointer"
         :visible {workspace.output == monitor ? true : false}
         (button
-          :class {arraylength(workspaces) == 1 ? "ws" : workspace.focused ? "active-ws" : "ws"}
+          ;:class {arraylength(workspaces) == 1 ? "ws" : workspace.focused ? "active-ws" : "ws"}
+          :class {workspace.focused ? "active-ws" : "ws"}
           :onclick "i3-msg workspace ${workspace.name}"
-          "${workspace.name}")))))
+          "${workspace.name == 1 ? "web"
+                : workspace.name == 2 ? "term"
+                : workspace.name == 3 ? "vim"
+                : workspace.name == 4 ? "study"
+                : workspace.name == 5 ? "idle"
+                : workspace.name == 6 ? "misc"
+                : workspace.name == 7 ? "steam" : ""
+                }")))))
 
 (defwidget mode []
   (box
