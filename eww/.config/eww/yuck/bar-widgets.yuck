@@ -52,7 +52,7 @@
         :cursor "pointer"
         :visible {workspace.output == monitor ? true : false}
         (button
-          :class {workspace.focused ? "active-ws" : "unfocused"}
+          :class {arraylength(workspaces) == 1 ? "ws" : workspace.focused ? "active-ws" : "ws"}
           :onclick "i3-msg workspace ${workspace.name}"
           "${workspace.name}")))))
 
@@ -78,7 +78,7 @@
 
 (defwidget datetime []
   (label
-    :class "block"
+    :class "block date"
     :text "${datetime}"))
 
 ;(defwidget music []

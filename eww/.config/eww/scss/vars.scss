@@ -11,12 +11,14 @@ $blue:      #7AA2F7;
 $magenta:   #BB9AF7;
 $cyan:      #7DCFFF;
 $coral:     #F09383;
+$dark:      $background;
 $white:     $foreground;
 
 //[colors:soft]
 $black_soft: lighten($black, 40%);
 $magenta_soft: lighten($magenta, 10%);
 $green_soft:     #73DACA;
+$coral_soft:  lighten($coral, 5%);
 
 $secondary: #6272a4;
 $danger:    #ff5555;

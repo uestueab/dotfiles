@@ -1,5 +1,5 @@
 .main-bar {
-    padding: 10px 10px 5px 10px;
+    padding: 10px 5px 5px 10px;
     color: $foreground;
 
     font-family: $font;
@@ -7,6 +7,7 @@
 }
 
 .block {
+    color: $black_soft;
     border-radius: $border-radius;
     box-shadow: $box-shadow;
     background-color: $black;
@@ -33,7 +34,7 @@
     .active-ws {
         color: $yellow;
     }
-    .unfocused {
+    .ws {
         color: $black_soft
     }
 }
@@ -49,8 +50,14 @@
     }
 }
 
+.date{
+    font-size: 0.8em;
+}
 
 .tray {
+    color: $dark;
+    font-size: 1.2em;
+    
     padding: 0px;
     button {
         padding: 0px 10px;
