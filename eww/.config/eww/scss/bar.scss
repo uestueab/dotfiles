@@ -1,0 +1,54 @@
+.main-bar {
+  padding: 10px 10px 5px 10px;
+  color: $foreground;
+
+  font-family: $font;
+  font-weight: bold;
+}
+
+.block {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  background-color: $black;
+  padding: 0px 10px;
+}
+
+.launcher {
+  background-color: $black;
+  // font-family: $icon-font;
+  // font-size: 16px;
+  // label {
+  //   margin-top: 4px;
+  //   margin-left: -1px;
+  // }
+}
+
+.workspaces {
+  color: $foreground;
+  padding: 0px 5px;
+  button {
+    padding: 0px 5px;
+  }
+  .active-workspace {
+    color: $foreground;
+  }
+}
+
+.seperator{
+}
+
+.mode {
+  color: $foreground;
+}
+
+
+.tray {
+  padding: 0px;
+  button {
+    padding: 0px 10px;
+  }
+  label {
+    margin-top: 5px;
+  }
+}
+

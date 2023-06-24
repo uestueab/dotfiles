@@ -28,6 +28,7 @@ setopt AUTO_CD      # -- "dir" instead of "cd dir"
 setopt +o nomatch
 
 export EDITOR=/usr/bin/nvim
+export BAT_PAGER=''
 export FZF_DEFAULT_COMMAND='rg --files'
 export FZF_DEFAULT_OPS=' --extended '
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
@@ -134,7 +135,7 @@ bindkey -M vicmd ',jp' jump_to_directory # Do the same for vi-command mode as we
 #| wp:     | set up a new wallpaper
 #| xp:     | class name of window
 #------------------------------------------------------------------------------------------------------------
-alias cat="bat --style=plain --pager=never"      
+alias cat="bat"      
 alias cp="advcp -g"
 alias dlm='yt-dlp --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s"'
 alias down="cd ~/.down"
