@@ -31,11 +31,11 @@ export EDITOR=/usr/bin/nvim
 export BAT_PAGER=''
 export FZF_DEFAULT_COMMAND='rg --files'
 export FZF_DEFAULT_OPTS="
-	--color=fg:#E1D7C6,bg:#191724,hl:#f6c177
-	--color=fg+:#0a0b11,bg+:#eb6f92,hl+:#403d52
-	--color=border:#403d52,header:#31748f,gutter:#403d52
+	--color=fg:#E1D7C6,bg:#161821,hl:#E0AF68
+	--color=fg+:#403d52,bg+:#f6c177,hl+:#000000
+	--color=border:#403d52,header:#31748f,gutter:#161821
 	--color=spinner:#f6c177,info:#f6c177,separator:#403d52
-	--color=pointer:#0a0b11,marker:#eb6f92,prompt:#F09383
+	--color=pointer:#0a0b11,marker:#eb6f92,prompt:#eb6f92
 
     --pointer=' '
     --bind ,:cancel,tab:accept,esc:ignore,right:toggle+up
@@ -113,8 +113,8 @@ jump_to_directory() {
 
 zle -N jump_to_directory # Create a zsh widget for the fuction
 
-bindkey -M viins ',jp' jump_to_directory # Run the widget when given keybind was pressed 
-bindkey -M vicmd ',jp' jump_to_directory # Do the same for vi-command mode as well
+bindkey -M viins ',j' jump_to_directory # Run the widget when given keybind was pressed 
+bindkey -M vicmd ',j' jump_to_directory # Do the same for vi-command mode as well
 
 #------------------------------------------------------------------------------------------------------------
 # NOTE: Prefixes with f_ denote functions located at .zshrc.d

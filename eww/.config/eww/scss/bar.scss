@@ -40,6 +40,8 @@
     }
 }
 
+
+
 .seperator{
 }
 
@@ -58,7 +60,7 @@
 .tray {
     color: $dark;
     font-size: 1.2em;
-    
+
     padding: 0px;
     button {
         padding: 0px 10px;
@@ -69,3 +71,6 @@
     }
 }
 
+.hover_tray {
+    color: $foreground;
+}

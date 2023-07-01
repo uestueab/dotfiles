@@ -15,3 +15,5 @@
 ;;  Others
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defvar tray false)
+(defvar hover_tray false)
+
