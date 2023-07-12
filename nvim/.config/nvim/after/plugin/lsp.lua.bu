@@ -1,0 +1,31 @@
+local lsp = require('lsp-zero').preset({
+  float_border = 'none',
+  configure_diagnostics = false,
+})
+
+lsp.setup()
+
+local cmp = require('cmp')
+local cmp_select = {behavior = cmp.SelectBehavior.Select}
+
+require('luasnip.loaders.from_vscode').lazy_load()
+
+cmp.setup({
+    sources = {
+        {name = 'path'},
+        {name = 'nvim_lsp'},
+        {name = 'buffer', keyword_length = 3},
+        {name = 'luasnip', keyword_length = 2},
+    },
+    mapping = {
+        -- ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
+        -- ['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
+        ['<Tab>'] = cmp.mapping.confirm({ select = true }),
+        ["<C-Space>"] = cmp.mapping.complete(),
+    }
+})
+
+
+vim.diagnostic.config({
+  virtual_text = false,
+})
