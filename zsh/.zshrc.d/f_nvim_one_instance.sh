@@ -6,8 +6,6 @@ function f_nvim_one_instance() {
     #if there is no nvim process already running...
     if ! pgrep -x "nvim"; then
 
-        notify-send 'test' "$@"
-
         #save current workspace pre nvim launch
         #so we can change to it right after! 
         CWS=$(i3-msg -t get_workspaces | jq '.[] | select(.focused==true).name')
@@ -34,7 +32,6 @@ function f_nvim_one_instance() {
 
     #there is a nvim process running
     else
-        notify-send 'test' "$@"
         command nvim --server "$serverPath" --remote-tab "$@"
         i3-msg "workspace 3" > /dev/null 2>&1   #switch to workspace
         exit

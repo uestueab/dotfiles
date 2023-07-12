@@ -17,7 +17,6 @@
       (workspaces :monitor monitor)
     )
     (mode)
-    ;(window)
   )
 ) 
 
@@ -26,9 +25,7 @@
     :space-evenly false
     :spacing 5
     :halign "end"
-    ;(music)
-    ; (settings)
-    ;(battery :monitor monitor)
+    
     (datetime)
     (tray)
   )
@@ -79,103 +76,19 @@
       :class {mode == "default" ? "" : "mode-entered"}
       :text "${mode}")))
 
-;(defwidget window []
-;  (label 
-;    :class "block" 
-;    :visible {window != "" ? true : false}
-;    :text "${window}"))
 
 (defwidget datetime []
   (label
     :class "block date"
     :text "${datetime}"))
 
-;(defwidget music []
-;  (box
-;    :class "block music"
-;    :space-evenly false
-;    (label 
-;      :class "song-title"
-;      :visible {player.player ? true : false} 
-;      :text "${player.title}")
-;    (label 
-;      :class "separator" 
-;      :visible {player.player ? true : false} 
-;      :text "|") 
-;    (eventbox
-;      :cursor "pointer"
-;      (button
-;        :class "song-prev"
-;        :visible {player.player ? true : false}
-;        :onclick "playerctl -p spotify previous"
-;        "玲"))
-;    (eventbox
-;      :cursor "pointer"
-;      (button
-;        :visible {player.player ? true : false}
-;        :onclick "playerctl -p spotify play-pause" 
-;        (label :text {player.playing ? "" : "契"})))
-;    (eventbox
-;      :cursor "pointer"
-;      (button
-;        :class "song-next"
-;        :visible {player.player ? true : false}
-;        :onclick "playerctl -p spotify next"
-;        "怜"))
-;    (label 
-;      :class "separator" 
-;      :visible {player.player ? true : false} 
-;      :text "|") 
-;    (eventbox
-;      :cursor "pointer"
-;      (button
-;        :class {player.player ? "launch-music" : "launch-music closed"}
-;        :onclick "~/.config/eww/scripts/open-spotify.sh &"
-;        ""))))
-
-;(defwidget settings []
-;  (box
-;    :class "block"
-;    (button
-;      :onclick ;"~/.config/eww/scripts/open-bluetooth.sh ${bluetoothopen} &"
-;      "BL")))
-
-;(defwidget battery [monitor]
-;  (box
-;    :class "block battery"
-;    (eventbox
-;      :onhover "eww update batterypercent=${monitor}"
-;      :onhoverlost "eww update batterypercent=false"
-;      (box
-;        :class "battery-inner"
-;        :space-evenly false
-;        (label 
-;          :class "battery-icon" 
-;          :text "${battery.icon}")
-;        (revealer
-;          :class "battery-percent"
-;          :transition "slideright"
-;          :reveal {batterypercent == monitor}
-;          "${battery.percent}%")))))
 
 (defwidget tray []
   (box
     :class "block tray"
-    (eventbox :onhover "eww update hover_tray=true" :onhoverlost "eww update hover_tray=false"
+    (eventbox
+        :onhover "eww update hover_tray=true" :onhoverlost "eww update hover_tray=false" 
       :cursor "pointer" :class "block date ${hover_tray ? "hover_tray" : "" }"
       (button
-        :onclick "~/.config/eww/scripts/open-tray.sh ${tray} &"
+        :onclick "$HOME/launch_left"
         ""))))
-
-
-(defwindow volume
-	:geometry (geometry :y "8%" :height: "10%" :width "10%" :anchor "top right")
-        (box
-        :class "volume-popup-bar"
-        (scale
-          :min 0 
-          :max 101
-          :value 80
-        )
-      )
-)
